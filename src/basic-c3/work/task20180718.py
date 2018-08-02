@@ -7,7 +7,9 @@ option = {"LowFatMilk": 0, "NonFatMilk": 0, "SoyMilk": 50,
           "ChocoSource": 0, "DeCafe": 50}
 
 main_a = []
-optyon_a = []
-x = input("メインメニューを入力してください")
-for main_a in main_mane:
-    print()
+while True:
+    x = input("メインメニューを決めてください。")
+    if x == "" or x == "q":
+        print("キャンセルしました"):break
+
+
