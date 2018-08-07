@@ -13,5 +13,5 @@ def calc_incl_tax(excl_tax):
     int
         税込み金額
     """
-    return 0
+    return (1 + TAX_RATE / 100) * excl_tax
 
